@@ -1,3 +1,5 @@
+// C++ code to find the sum of two digits entered by the user..
+
 #include<iostream>
 using namespace std;
 int main(){
