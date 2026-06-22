@@ -1,3 +1,5 @@
+// This is a C++ code to find the Simple interest of a loan.
+
 #include<iostream>
 using namespace std;
 int main(){
