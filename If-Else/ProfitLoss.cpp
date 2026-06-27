@@ -10,6 +10,6 @@ int main(){
     cin >> sp;
 
     if (cp<sp) cout << "You have made a profit" << endl << "Profit amount: " << (sp-cp);
-    if (sp<cp) cout << "You have made a loss" << endl << "Loss amount: " << (cp-sp);
-    if (sp==cp) cout << "Neither loss nor profit" << endl;
+    else if(sp<cp) cout << "You have made a loss" << endl << "Loss amount: " << (cp-sp);
+    else cout << "Neither loss nor profit" << endl;
 }
