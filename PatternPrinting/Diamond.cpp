@@ -2,6 +2,8 @@
 using namespace std;
 int main(){
 
+    // Upper Pyramid part
+
     for (int i=1; i<=4; i++){
         for (int j=1; j<=4-i; j++){
             cout << "  ";
@@ -12,6 +14,8 @@ int main(){
         cout << endl;
     }
 
+    // Lower Pyramid part(ulta)
+    
     int nst = 5; 
     int nsp = 1;
 
