@@ -10,8 +10,8 @@ int main(){
     int arr[n];
     cout << "Enter the elements of array: " ;
     for (int i=0; i<n; i++){
-        cin >> arr[n];
-        sum+=arr[n];
+        cin >> arr[i];
+        sum+=arr[i];
     }
 
     cout << "The sum of elements of array are: " << sum ;
