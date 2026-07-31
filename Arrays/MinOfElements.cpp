@@ -1,4 +1,5 @@
 #include<iostream>
+#include<climits>
 using namespace std;
 int main(){
     int arr[] = {23,56,656,32,67,23,55};
@@ -8,10 +9,10 @@ int main(){
     }
     cout << endl;
 
-    long long min = 1000000000000;
+    int min = INT_MAX;
     for (int i = 0; i<size(arr); i++){
         if (arr[i] < min) min = arr[i];
         else continue;
     }
-    cout << "The max element is: " << min << endl;
+    cout << "The min element is: " << min << endl;
 }
