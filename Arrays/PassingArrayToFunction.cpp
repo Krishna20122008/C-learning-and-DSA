@@ -16,7 +16,7 @@ int main(){
 
     int arr[] = {10,3,5,23,56};
     cout << arr[0] << endl;
-    changeArray(arr);   // Here in case of array, even if a reference x array is formed in changeArray function, still the value of 0 index of arr is changed.
+    changeArray(arr);   // Here in case of array, no new reference array is formed in changeArray function, so the value of 0 index of arr is changed.
     cout << arr[0] << endl;
 
 }
