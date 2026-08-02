@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<climits>
 using namespace std;
 int main(){
     vector<int> arr(5);
@@ -15,4 +16,11 @@ int main(){
         cout << grr[i] << " ";
     }
     cout << endl;
+
+    grr.push_back(53);
+    for (int i=0; i<6; i++){
+        cout << grr[i] << " ";
+    }
+    cout << endl;
+    cout << size(grr) << endl;
 }
