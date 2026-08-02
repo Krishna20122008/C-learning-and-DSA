@@ -17,10 +17,14 @@ int main(){
     }
     cout << endl;
 
-    grr.push_back(53);
+    grr.push_back(53);      // Adds a new element at end
     for (int i=0; i<6; i++){
         cout << grr[i] << " ";
     }
     cout << endl;
+    cout << size(grr) << endl;      // Two methods of finding size
+    cout << grr.size() << endl;
+
+    grr.pop_back();         // Removes the last element
     cout << size(grr) << endl;
 }
