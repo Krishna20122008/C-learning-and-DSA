@@ -13,6 +13,8 @@ int main(){
         arr.push_back(ele);
     }
 
+    sort(arr.begin(), arr.end());
+
     for(int ele : arr){
         cout << ele << " ";
     }
